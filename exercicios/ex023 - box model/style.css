@@ -1,0 +1,60 @@
+@charset "UTF-8";
+body{
+    background-color: grey;
+    font-size: 20px;
+    padding: 25px;
+    text-indent: 10px;
+    color: aliceblue;
+    
+}
+h1 {
+    /* Espaçamento interno 
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 10px;
+    padding-left: 10px;*/
+
+     /* Espaçamento interno (sort shorthand aplicado: top, right, bottom, left) */
+     padding: 11px 10px 11px 10px;
+
+    /* Margens 
+    margin: auto;
+    margin-bottom: 30px; */
+
+    /* Margens (sort shorthand aplicado: top, right, bottom, left) */
+    margin: auto auto 30px auto;
+
+    /* Borda 
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(75, 74, 74); */
+
+      /* Borda (sort shorthand aplicado: largura, estilo, cor) */
+    border: 10px solid rgb(75, 74, 74);
+
+    /* Contorno 
+    outline-width: 7px;
+    outline-style: outset;
+    outline-color: aliceblue; */
+
+    /* Contorno (sort shorthand aplicado: largura, estilo, cor) */
+    outline: 7px outset aliceblue;
+
+    /* Dimensões */
+    width: 600px;
+    height: 300px;
+
+    /* Estilização do texto */
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+
+    /* Alinhamento */
+    align-content: center;
+}
+
+p{
+    background-color: black;
+    text-align: center;
+    text-align: justify;
+}

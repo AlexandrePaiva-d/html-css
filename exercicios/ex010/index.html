@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<<body>
+    <h1>Imagens Dinâmicas</h1> <!-- Título principal da seção -->
+
+    <p>Tente abrir esse site em vários dispositivos</p> <!-- Explicação sobre imagens responsivas -->
+
+    <!-- A tag <picture> permite definir imagens dinâmicas que mudam dependendo do tamanho da tela -->
+    <picture>
+        <!-- Se a tela tiver no máximo 701px de largura, será carregada a imagem "foto-p.png" -->
+        <source media="(max-width: 701px)" srcset="Imagens/foto-p.png" type="image/png">
+        
+        <!-- Se a tela tiver no máximo 1000px de largura, será carregada a imagem "foto-m.png" -->
+        <source media="(max-width: 1000px)" srcset="Imagens/foto-m.png" type="image/png">
+        
+        <!-- Se nenhuma das condições acima for atendida, será carregada a imagem padrão "foto-g.png" -->
+        <img src="Imagens/foto-g.png" alt="Grande">
+    </picture>
+
+    <h1>Mídias em áudio</h1> <!-- Título principal da seção de áudio -->
+
+    <p>Vou adicionar um áudio usando a tag <audio></p> <!-- Explicação sobre a tag de áudio -->
+
+    <!-- Elemento <audio> simples para reproduzir um arquivo de áudio -->
+    <audio src="midia/cattle.mp3" controls autoplay></audio>
+    <!-- 'controls' exibe os controles do player de áudio -->
+    <!-- 'autoplay' faz o áudio começar automaticamente (pode ser bloqueado pelo navegador) -->
+
+    <h2>Outro modo:</h2> <!-- Subtítulo explicando outro método de inserção de áudio -->
+
+    <p>Ou podemos usar o abaixo:</p> <!-- Explicação sobre a alternativa -->
+
+    <!-- Outra forma de incluir áudio usando a tag <source> -->
+    <audio preload="metadata" controls autoplay loop>
+        <!-- O preload="metadata" carrega apenas os metadados do áudio, economizando dados -->
+        <!-- 'loop' faz o áudio tocar repetidamente -->
+        <source src="midia/cattle.mp3" type="audio/mpeg">
+        
+        <!-- Caso o navegador não suporte a tag <audio>, exibirá a mensagem abaixo -->
+        <p>Seu navegador não suporta esse tipo de arquivo 
+            <a href="midia/cattle.mp3" download="cattle.mp3" type="audio/mpeg">clique aqui</a>
+        </p>
+        <!-- O link permite que o usuário baixe o arquivo de áudio caso não consiga reproduzi-lo -->
+    </audio>
+</body>
+</html>

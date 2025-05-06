@@ -1,0 +1,35 @@
+@charset "UTF-8"; /* Define a codificação de caracteres como UTF-8 para suportar caracteres especiais. */
+
+* {
+    font-family: 'Times New Roman', Times, serif; /* Define a fonte padrão para toda a página. */
+    text-align: justify; /* Justifica o texto para alinhar dos dois lados. */
+}
+
+body {
+    background-image: linear-gradient(to left, #9FA092, #E2DED2, #D6B98F, #8F705B); /* Aplica um fundo com degradê, indo de tons de cinza esverdeado até marrom. */
+}
+
+main {
+    background-color: white; /* Define o fundo da seção principal como branco. */
+    width: 600px; /* Define a largura da área principal para 600 pixels. */
+    padding: 10px; /* Adiciona espaçamento interno de 10 pixels. */
+    margin: auto; /* Centraliza a área principal horizontalmente na página. */
+    border-radius: 10%; /* Arredonda as bordas do bloco principal. */
+    box-shadow: 5px 5px 15px #524035b0; /* Adiciona uma sombra ao redor do bloco para efeito tridimensional. */
+}
+
+h1 {
+    color: #8F705B; /* Define a cor do título principal (h1) como um tom marrom. */
+    text-align: center; /* Centraliza o título na página. */
+    text-shadow: 1px 1px 2px #524035b0; /* Adiciona uma sombra ao texto para realce. */
+}
+
+h2 {
+    color: #D6B98F; /* Define a cor do subtítulo (h2) como um tom bege. */
+}
+
+p {
+    color: #8F705B; /* Define a cor do texto dos parágrafos como marrom. */
+    text-shadow: 1px 1px 0px #D6B98F; /* Adiciona uma leve sombra ao texto para destaque. */
+    font-size: 20px; /* Define o tamanho do texto dos parágrafos para 20 pixels. */
+}

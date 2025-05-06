@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.tangerine-regular {
+    font-family: "Tangerine", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+.noto-sans-<uniquifier> {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.honk-<uniquifier> {
+    font-family: "Honk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+  }
+h1{
+    font: normal normal 20px honk, helvetica, sans-serif;
+}
+
+body{
+    font: normal normal 20px noto sans, helvetica, sans-serif;
+}

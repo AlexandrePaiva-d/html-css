@@ -1,0 +1,50 @@
+@charset "utf-8";
+body{
+    background-color: #B49FCC;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 15px;
+    font-size: 19px;
+}
+
+h1#principal{
+    background-color: #412234;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    width: 600px; /* Define a largura da área principal para 600 pixels. */
+    padding: 10px; /* Adiciona espaçamento interno de 10 pixels. */
+    margin: auto; /* Centraliza a área principal horizontalmente na página. */
+    border-radius: 10%; /* Arredonda as bordas do bloco principal. */
+    box-shadow: 5px 5px 15px #524035b0; /* Adiciona uma sombra ao redor do bloco para efeito tridimensional. */
+}
+
+h1{
+    color: #6D466B;
+    text-align: center;
+}
+h2{
+    color: #6D466B;
+    text-align: center;
+}
+.basico{
+    color: whitesmoke;
+    background-color: #6D466B;
+    border-radius: 20%;
+    box-shadow:5px 5px 15px black;
+}
+.intermediario{
+    color: whitesmoke;
+    background-color: #6D466B;
+    background-color: #6D466B;
+    border-radius: 20%;
+    box-shadow:5px 5px 15px black;
+}
+.avancado{
+    color: whitesmoke;
+    background-color: #6D466B;
+    background-color: #6D466B;
+    border-radius: 20%;
+    box-shadow:5px 5px 15px black;
+}
