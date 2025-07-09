@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            position: relative;
+            background-color: purple;
+            height: 500px;
+            padding: 10px;
+            background-size: 100%;
+            height: 96vh;
+        }
+        #conteudo{
+            background-image: url('imagens/espada.png');
+            position: absolute; /*só posso usar o absolute, por que no container, está como relative*/
+            background-size: 100% 100%;
+            background-color: yellow;
+            height: 200px;
+            width: 50%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); 
+            border: 2px solid black;
+            box-shadow: 5px black;
+        }
+        #conteudo > h1{
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <h1>Título</h1>
+        </article>
+    </section>
+</body>
+</html>
