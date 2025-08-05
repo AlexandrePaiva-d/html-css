@@ -15,16 +15,14 @@
 }
 
 html, body{
-    min-height: 100vh;
+   
     background-color: darkgrey;
 }
 header{
     padding-top: 50px;
-    padding-bottom: 50px;
     background-color: black;
     color: white;
     text-align: center;
-    height: 100px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -43,7 +41,7 @@ a:hover{
 }
 p {
     font-family: var(--fonte2);
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     padding-bottom: 2em;
     line-height: 2em;
     
@@ -72,7 +70,7 @@ section.imagem > p{
     color: white;
     display: inline-block;
     padding: 5px;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 2px 2px 0px black;
 }
 section#img01{
     background-image: url(pacote-d012/imagens/background001.jpg);
